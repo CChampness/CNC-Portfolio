@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
-import BucketForm from './BucketForm';
-import Bucket from './Bucket';
+import Header from './Header';
+import Nav from './Nav';
+import Footer from './Footer';
 
-function BucketList() {
+function PortfolioContainer() {
   const [bucket, setBucket] = useState([]);
 
   // Function to add a bucket list item
   const addBucketItem = (item) => {
     console.log(
-      '🚀 ~ file: BucketList.js ~ line 10 ~ addBucketItem ~ item',
+      '🚀 ~ file: PortfolioContainer.js ~ line 10 ~ addBucketItem ~ item',
       item
     );
     // Check to see if the item text is empty
@@ -62,15 +63,15 @@ function BucketList() {
   return (
     <div>
       <h1>What is on your bucket list?</h1>
-      <BucketForm onSubmit={addBucketItem} />
-      <Bucket
+      <Header onSubmit={addBucketItem} />
+      <Nav
         bucket={bucket}
         completeBucketItem={completeBucketItem}
         removeBucketItem={removeBucketItem}
         editBucketItem={editBucketItem}
-      ></Bucket>
+      ></Nav>
     </div>
   );
 }
 
-export default BucketList;
+export default PortfolioContainer;

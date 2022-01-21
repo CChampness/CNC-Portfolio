@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import BucketForm from './BucketForm';
+import Header from './Header';
 
-function Bucket(props) {
+function Nav(props) {
   const [edit, setEdit] = useState({
     id: null,
     value: '',
@@ -16,7 +16,7 @@ function Bucket(props) {
   };
 
   if (edit.id) {
-    return <BucketForm edit={edit} onSubmit={submitUpdate} />;
+    return <Header edit={edit} onSubmit={submitUpdate} />;
   }
 
   return props.bucket.map((item, i) => (
@@ -40,4 +40,4 @@ function Bucket(props) {
   ));
 }
 
-export default Bucket;
+export default Nav;

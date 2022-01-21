@@ -1,6 +1,7 @@
+
 import React, { useState } from 'react';
 
-function BucketForm(props) {
+function Header(props) {
   const [input, setInput] = useState('');
   let [eagerness, setEagerness] = useState('');
 
@@ -81,4 +82,4 @@ function BucketForm(props) {
   );
 }
 
-export default BucketForm;
+export default Header;
