@@ -1,10 +1,11 @@
 import './App.css';
-import PortfolioContainer from './components/PortfolioContainer';
+import React from "react";
+import PortfolioApp from './components/Portfolio';
 
 function App() {
   return (
-    <div className="bucket-app">
-      <PortfolioContainer />
+    <div className="portfolio-app">
+      <PortfolioApp />
     </div>
   );
 }

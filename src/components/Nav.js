@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Header from './Header';
 
 function Nav(props) {
   const [edit, setEdit] = useState({
@@ -8,36 +7,15 @@ function Nav(props) {
     eagerness: '',
   });
 
-  console.log(props.bucket);
-
-  const submitUpdate = (value) => {
-    props.editBucketItem(edit.id, value);
-    setEdit({ id: null, value: '', eagerness: '' });
-  };
-
-  if (edit.id) {
-    return <Header edit={edit} onSubmit={submitUpdate} />;
-  }
-
-  return props.bucket.map((item, i) => (
-    <div
-      className={
-        item.isComplete
-          ? `bucket-row complete ${item.eagerness}`
-          : `bucket-row ${item.eagerness}`
-      }
-      key={i}
-    >
-      <div key={item.id} onClick={() => props.completeBucketItem(item.id)}>
-        {item.text}
-      </div>
-      <div className="icons">
-        {console.log(item)}
-        <p onClick={() => setEdit({ id: item.id, value: item.text, eagerness: item.eagerness })}> ✏️</p>
-        <p onClick={() => props.removeBucketItem(item.id)}> 🗑️</p>
-      </div>
-    </div>
-  ));
+  return (
+    <nav>
+      <a href="#about-section">About Me</a>
+      <a href="#work">Portfolio</a>
+      <a href="#contact">Contact Me</a>
+      <a href="Resume.html">Resume</a>
+    </nav>
+  
+  );
 }
 
 export default Nav;
