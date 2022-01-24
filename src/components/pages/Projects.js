@@ -1,6 +1,7 @@
 function Projects() {
   return (
-    <h2>Projects page</h2>
+    <div className="Projects div">
+    </div>
   );
 }
 
