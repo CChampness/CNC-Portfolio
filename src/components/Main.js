@@ -9,25 +9,26 @@ function Main({ currentPage}) {
 
   const renderPage = () => {
     if (currentPage === 'About') {
-      return <About />;
+      return <About />
     }
     if (currentPage === 'Projects') {
-      return <Projects />;
+      return (
+        <section class="row justify-center">
+          <Projects />
+        </section>
+      );
     }
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    return <Resume />;
+    return <Resume />
   };
 
   return (
     <main>
-      <p>current page: {currentPage}</p>
       {renderPage()}
     </main>
   );
 }
-
-
 
 export default Main;

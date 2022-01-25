@@ -7,13 +7,11 @@ function PortfolioApp() {
   const [currentPage, setCurrentPage] = useState('About');
 
   return (
-    <div className="PFContainer">
     <React.Fragment>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <Main currentPage={currentPage} />
       <Footer />
     </React.Fragment>
-    </div>
   );
 }
 

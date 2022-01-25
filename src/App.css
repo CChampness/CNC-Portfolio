@@ -5,9 +5,16 @@
   --pop-box-text: "Click inside the box for details";
 }
 
-* {
+/* Resets the box size of every element */
+*,*:before,*:after {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
+/* * {
+  box-sizing: border-box;
+} */
 
 body {
   color: aliceblue;
@@ -26,7 +33,7 @@ header {
   align-items: center;
   flex-wrap: nowrap;
   text-align: center;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), var(--dark-blue-green));
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), var(--dark-blue-green));
 }
 
 .details-page-header {
