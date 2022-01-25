@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import projList from './displist';
 import FSBlog from './FsBlog';
 // import writeDetailsHtml from './details';
@@ -10,6 +11,8 @@ import FSBlog from './FsBlog';
   const pageChange = () => {<FSBlog />};
 
   function Projects () {
+      const [currentPage, setCurrentPage] = useState('FSBlob');
+    
     return (
       projList.map((proj) =>
         <div className={(ndx++ === 0) ? "top-card" : "card-column"}>
@@ -18,7 +21,7 @@ import FSBlog from './FsBlog';
               <h4 className="card-title">{proj.title}</h4>
               <img src={imgDir+proj.img} alt={proj.alt}/>
             </span>
-            <button onClick={() => pageChange('FSBlog')}>Click Me</button>
+            <button onClick={() => setCurrentPage('FSBlog')}>Click Me</button>
           </figure>
         </div>
       )
