@@ -11,7 +11,7 @@ import FSBlog from './FsBlog';
   const pageChange = () => {<FSBlog />};
 
   function Projects () {
-      const [currentPage, setCurrentPage] = useState('FSBlob');
+      const [currentPage, setCurrentPage] = useState('FSBlog');
     
     return (
       projList.map((proj) =>
