@@ -1,5 +1,4 @@
 import React from 'react';
-import projList from './displist';
 
 let proj = {
   "id": "Mt",
@@ -15,9 +14,6 @@ let proj = {
   }
 
 let imgDir = './CNC-Portfolio/images/';
-let pagePath = './pages/CNC-Portfolio/';
-let jsEnding = ".js";
-
   
 function Mt() {
   return (

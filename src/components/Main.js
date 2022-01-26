@@ -4,6 +4,12 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Mt from './pages/Mt';
+import Cq from './pages/Cq';
+import Fsb from './pages/Fsb';
+import Tan from './pages/Tan';
+import Tpg from './pages/Tpg';
+import Wa from './pages/Wa';
+import Dp from './pages/Dp';
 
 
 function Main({ currentPage, setCurrentPage}) {
@@ -25,6 +31,18 @@ function Main({ currentPage, setCurrentPage}) {
         return <Contact />;
       case 'Mt':
         return <Mt />;
+      case 'Cq':
+        return <Cq />;
+      case 'Dp':
+        return <Dp />;
+      case 'Fsb':
+        return <Fsb />;
+      case 'Tan':
+        return <Tan />;
+      case 'Tpg':
+        return <Tpg />;
+      case 'Wa':
+        return <Wa />;
       default:
         return <Resume />
     }

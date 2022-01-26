@@ -10,7 +10,7 @@ const projList = [
     "video": "https://drive.google.com/file/d/1pjfldH-52UGu2uFExDSPg9XFFh4kNT8K/view?usp=sharing",
     "live": "https://materials-trader.herokuapp.com/"
   },
-  { "id": "wa",
+  { "id": "Wa",
     "img": "weatherapp.png",
     "alt": "Weather Panel",
     "title": "Weather Panel",
@@ -20,7 +20,7 @@ const projList = [
             "from JavaScript.",
     "live": "https://cchampness.github.io/WeatherPanel"
   },
-  { "id": "cq",
+  { "id": "Cq",
     "img": "CodingQuiz.gif",
     "alt": "Coding Quiz",
     "title": "JavaScript Coding Quiz",
@@ -33,7 +33,7 @@ const projList = [
             "user can run it conveniently on a mobile device.",
     "live": "https://cchampness.github.io/JavascriptCodingTest"
   },
-  { "id": "tpg",
+  { "id": "Tpg",
   "img": "tpg.png",
   "alt": "TeamPageGen",
   "title": "TeamPageGen",
@@ -45,18 +45,7 @@ const projList = [
           "of the classes.",
   "video": "https://drive.google.com/file/d/104Eg3jqvDR0kNaHWn-uCAOZcHypee3R9/view?usp=sharing"
   },
-  { "id": "ecms",
-    "img": "ecms.png",
-    "alt": "Employee CMS",
-    "title": "EmployeeCMS",
-    "text": "The EmployeeCMS is a Content Management System to track employees, departments, "+
-            "and roles within an organization. The EmployeeCMS app runs under NodeJs to enable "+
-            "a non-technical user to easily view and interact with information stored in the "+
-            "database containing employee data. The app manages a company's employee database, "+
-            "using Node.js, Inquirer, and MySQL.",
-    "video": "https://watch.screencastify.com/v/P1dwg5RPuzw7Bm4yUr5T"
-  },
-  { "id": "dp",
+  { "id": "Dp",
     "img": "DayPlanner.gif",
     "alt": "Day Planner App",
     "title": "Day Planner",
@@ -73,24 +62,14 @@ const projList = [
             "schedule can be entered.",
     "live": "https://CChampness.github.io/WorkdayCalendar"
   },
-  { "id": "pwg",
-  "img": "pwgen.gif",
-  "alt": "Password Generator",
-  "title": "Password Generator",
-  "text": "The Password Generator is an application that enables employees to generate random "+
-          "passwords based on criteria that they’ve selected. It runs in the browser and "+
-          "features dynamically updated HTML and CSS powered by JavaScript. It has a responsive "+
-          "user interface that adapts to multiple screen sizes.",
-  "live": "https://cchampness.github.io/Password-Generator"
-  },
-  { "id": "fsb",
+  { "id": "Fsb",
     "img": "FS-techblog.png",
     "alt": "Full Stack Blog",
     "title": "FS-Blog",
     "text": "This is a Full Stack CMS-style app that manages the content of a tech blog site.",
     "live": "https://shielded-journey-82964.herokuapp.com"
   },
-  { "id": "tan",
+  { "id": "Tan",
     "img": "TakeANote.png",
     "alt": "Take-A-Note",
     "title": "Take-A-Note",
