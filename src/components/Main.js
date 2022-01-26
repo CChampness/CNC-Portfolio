@@ -13,7 +13,8 @@ function Main({ currentPage}) {
     }
     if (currentPage === 'Projects') {
       return (
-        <section class="row justify-center">
+        <section className="row justify-center">
+          <h3>Portfolio</h3>
           <Projects />
         </section>
       );

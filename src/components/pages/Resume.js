@@ -26,7 +26,7 @@ function Resume() {
       </article>
       <article>
         <h4>Skills</h4>
-        <p>
+        {/* <p> */}
           <ul>
             <li>JavaScript</li>
             <li>CSS</li>
@@ -35,56 +35,45 @@ function Resume() {
             <li>Embedded Software</li>
             <li>C++</li>
           </ul>
-        </p>
+        {/* </p> */}
       </article>
       <article>
         <h4>Experience</h4>
-          <p>
+          {/* <p> */}
           <dl>
-            <dt>&nbsp</dt>
             <dt>Home Depot</dt>
             <dd>- Sales Associate (2020-2021)</dd>
-            <dt>&nbsp</dt>
             <dt>Toccoa Hardware</dt>
             <dd>- Small Engine Parts Manager (2018-2020)</dd>
-            <dt>&nbsp</dt>
             <dt>Technical Equipment Distributors, Inc.</dt>
             <dd>- Warehouse Manager (2015-2017)</dd>
-            <dt>&nbsp</dt>
             <dt>Home Depot</dt>
             <dd>- Sales Associate (2014-2015)</dd>
-            <dt>&nbsp</dt>
             <dt>NCH Software</dt>
             <dd>- Software Engineer (2009-2010)</dd>
-            <dt>&nbsp</dt>
             <dt>InterDigital Communications LLC</dt>
             <dd>- Staff Software Engineer (2005-2009)</dd>
-            <dt>&nbsp</dt>
             <dt>Essex/CSI (now part of Northrup Grumman)</dt>
             <dd>- Principal Software Engineer (2002-2005)</dd>
-            <dt>&nbsp</dt>
             <dt>General Electric Transportation (now Wabtec)</dt>
             <dd>- Lead Professional Band Software Engineer (2000-2002)</dd>
-            <dt>&nbsp</dt>
             <dt>Computer Science Innovations</dt>
             <dd>- Principal Software Engineer (1990-2000)</dd>
-            <dt>&nbsp</dt>
             <dt>Harris Corporation</dt>
             <dd>- Lead Software Engineer (1985-1990)</dd>
-            <dt>&nbsp</dt>
             <dt>Georgia Tech Research Institute</dt>
             <dd>- Engineering Research Associate (1982-1985)</dd>
           </dl>
-          </p>
+          {/* </p> */}
         </article>
         <article>
-          <h4>Education & Training</h4>
-        <p>
+          <h4>Education and Training</h4>
+        {/* <p> */}
           <ul>
             <li>Georgia Tech Full-Stack Web Development Coding Bootcamp (2021)</li>
             <li>Georgia Institute of Technology Bachelor ComputerScience (1985, Honors)</li>
           </ul>
-        </p>
+        {/* </p> */}
       </article>
     </div>
   );

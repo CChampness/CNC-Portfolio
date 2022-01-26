@@ -1,27 +1,28 @@
 import React, { useState } from 'react';
 import projList from './displist';
-import FSBlog from './FsBlog';
-// import writeDetailsHtml from './details';
+import FSBlog from './fsb';
 
-  // const cardClass = document.querySelector(".row");
-  // const cardClass = document.querySelector("main");
-  let ndx = 0;
+// const cardClass = document.querySelector("main");
+
   let imgDir = './images/';
+  let pagePath = './';
+  let jsEnding = ".js";
 
   const pageChange = () => {<FSBlog />};
 
-  function Projects () {
-      const [currentPage, setCurrentPage] = useState('FSBlog');
+  function Projects ({ currentPage, handleDetails }) {
+    let ndx = 0;
     
     return (
       projList.map((proj) =>
         <div className={(ndx++ === 0) ? "top-card" : "card-column"}>
           <figure className="proj-card">
             <span data-descr>
-              <h4 className="card-title">{proj.title}</h4>
-              <img src={imgDir+proj.img} alt={proj.alt}/>
+              <a href={pagePath+proj.id+jsEnding}>
+                <h4 className="card-title">{proj.title}</h4>
+                <img src={imgDir+proj.img} alt={proj.alt}/>
+              </a>
             </span>
-            <button onClick={() => setCurrentPage('FSBlog')}>Click Me</button>
           </figure>
         </div>
       )
@@ -29,6 +30,9 @@ import FSBlog from './FsBlog';
   }
 
 export default Projects;
+
+{/* <button onClick={() => setCurrentPage('FSBlog')}>Click Me</button> */}
+{/* <button onClick={() => <FSBlog />}>Click Me</button> */}
 
 {/* <a
 onClick={() => handlePageChange('Contact')}
