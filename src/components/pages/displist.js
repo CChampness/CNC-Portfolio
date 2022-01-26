@@ -1,5 +1,5 @@
 const projList = [
-  { "id": "mt",
+  { "id": "Mt",
     "img": "mtrd.png",
     "alt": "Materials Trader",
     "title": "Materials Trader",
