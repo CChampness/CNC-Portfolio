@@ -1,0 +1,16 @@
+form {
+  
+  left: 50%;
+  top: 50%;
+  margin-left: -25%;
+  position: absolute;
+  margin-top: -25%;
+
+  /* box-sizing: border-box; */
+}
+
+input {
+  border: 2px solid;
+  border-radius: 4px;
+
+}

@@ -10,13 +10,13 @@ function Nav({ currentPage, handlePageChange }) {
       <a onClick={() => handlePageChange('Contact')}>Contact Me</a>
       <a onClick={() => handlePageChange('Resume')}>Resume</a>
 
-      <a onClick={() => handlePageChange('Mt')}></a>
-      <a onClick={() => handlePageChange('Dp')}></a>
-      <a onClick={() => handlePageChange('Cq')}></a>
-      <a onClick={() => handlePageChange('Fsb')}></a>
-      <a onClick={() => handlePageChange('Tan')}></a>
-      <a onClick={() => handlePageChange('Tpg')}></a>
-      <a onClick={() => handlePageChange('Wa')}></a>
+      <a className="noshow" onClick={() => handlePageChange('Mt')}></a>
+      <a className="noshow" onClick={() => handlePageChange('Dp')}></a>
+      <a className="noshow" onClick={() => handlePageChange('Cq')}></a>
+      <a className="noshow" onClick={() => handlePageChange('Fsb')}></a>
+      <a className="noshow" onClick={() => handlePageChange('Tan')}></a>
+      <a className="noshow" onClick={() => handlePageChange('Tpg')}></a>
+      <a className="noshow" onClick={() => handlePageChange('Wa')}></a>
     </nav>
   );
 }
