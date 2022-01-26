@@ -9,7 +9,7 @@ function PortfolioApp() {
   return (
     <React.Fragment>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <Main currentPage={currentPage} />
+      <Main currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <Footer />
     </React.Fragment>
   );

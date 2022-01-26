@@ -5,7 +5,7 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
 
-function Main({ currentPage}) {
+function Main({ currentPage, handlePageChange}) {
 
   const renderPage = () => {
     if (currentPage === 'About') {
@@ -15,7 +15,7 @@ function Main({ currentPage}) {
       return (
         <section className="row justify-center">
           <h3>Portfolio</h3>
-          <Projects />
+          <Projects  currentPage={currentPage} handlePageChange={handlePageChange}/>
         </section>
       );
     }
