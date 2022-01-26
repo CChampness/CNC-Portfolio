@@ -15,7 +15,7 @@ function Contact() {
       <br/>
       <input {...register("email")} placeholder="email" />
       <br/>
-      <input {...register("message")} placeholder="Message..." />
+      <textarea rows="4" cols="50"{...register("message")} placeholder="Message..." />
       <p>{result}</p>
       <input type="submit" />
     </form>
