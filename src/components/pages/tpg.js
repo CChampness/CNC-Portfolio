@@ -14,7 +14,7 @@ let proj = {
   "video": "https://drive.google.com/file/d/104Eg3jqvDR0kNaHWn-uCAOZcHypee3R9/view?usp=sharing"
 }
 
-let imgDir = './CNC-Portfolio/images/';
+let imgDir = './images/';
   
 function Tpg() {
   return (

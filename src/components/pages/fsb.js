@@ -9,7 +9,7 @@ let proj = {
   "live": "https://shielded-journey-82964.herokuapp.com"
 }
 
-let imgDir = './CNC-Portfolio/images/';
+let imgDir = './images/';
   
 function Fsb() {
   return (

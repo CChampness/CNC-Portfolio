@@ -1,6 +1,6 @@
 import React from 'react';
 
-let imgDir = './CNC-Portfolio/images/';
+let imgDir = './images/';
 let proj = {
   "id": "Dp",
   "img": "DayPlanner.gif",

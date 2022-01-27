@@ -11,7 +11,7 @@ let proj = {
   "live": "https://damp-ravine-72371.herokuapp.com",
 }
 
-let imgDir = './CNC-Portfolio/images/';
+let imgDir = './images/';
   
 function Tan() {
   return (

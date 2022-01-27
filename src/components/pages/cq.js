@@ -15,7 +15,7 @@ let proj = {
   "live": "https://cchampness.github.io/JavascriptCodingTest"
 }
 
-let imgDir = './CNC-Portfolio/images/';
+let imgDir = './images/';
   
 function Cq() {
   return (

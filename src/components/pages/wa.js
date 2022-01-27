@@ -12,7 +12,7 @@ let proj = {
   "live": "https://cchampness.github.io/WeatherPanel"
 }
 
-let imgDir = './CNC-Portfolio/images/';
+let imgDir = './images/';
   
 function Wa() {
   return (
