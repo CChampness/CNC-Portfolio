@@ -26,13 +26,10 @@ function Tpg() {
       <hr/>
       <img src={imgDir+proj.img} alt={proj.alt}/>
       <hr/>
-      <h3>Github repo:</h3>
-      {/* <Link to="https://github.com/djdyer/materials-trader">Repo</Link> */}
-      <hr/>
-      <h3>Live deployment:</h3>
-      <hr/>
-      <h3>Walkthrough video:</h3>
-      <hr/>
+      <a href="https://github.com/CChampness/TeamPageGen"><h4>Github Repository</h4></a>
+      <br/>
+      <a href={proj.video}><h4>Walkthrough video</h4></a>
+      <br/>
     </>
   )
 }

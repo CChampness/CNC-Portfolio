@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import projList from './displist';
 
   let imgDir = './images/';

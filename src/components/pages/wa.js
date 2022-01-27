@@ -24,13 +24,10 @@ function Wa() {
       <hr/>
       <img src={imgDir+proj.img} alt={proj.alt}/>
       <hr/>
-      <h3>Github repo:</h3>
-      {/* <Link to="https://github.com/djdyer/materials-trader">Repo</Link> */}
-      <hr/>
-      <h3>Live deployment:</h3>
-      <hr/>
-      <h3>Walkthrough video:</h3>
-      <hr/>
+      <a href="https://github.com/CChampness/WeatherPanel"><h4>Github Repository</h4></a>
+      <br/>
+      <a href={proj.live}><h4>Live deployment</h4></a>
+      <br/>
     </>
   )
 }
