@@ -15,13 +15,21 @@ function Contact() {
       <br/>
       <input {...register("email")} placeholder="email" />
       <br/>
-      <textarea rows="4" cols="50"{...register("message")} placeholder="Message..." />
+      <textarea rows="10" cols="80"{...register("message")} placeholder="Message..." />
       <p>{result}</p>
       <input type="submit" />
     </form>
   );
 }
 
+{/* <input
+    type="text"
+    value={this.state.email}
+    onChange={event => this.setState({email: event.target.value})
+    onBlur={() => this.setState({
+        emailIsValid: isValidEmailAddress(this.state.email)
+    })
+/> */}
 
 // function Contact() {
 //   return (

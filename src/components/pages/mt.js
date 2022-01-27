@@ -1,3 +1,4 @@
+import './Details.css';
 import React from 'react';
 
 let proj = {
@@ -13,7 +14,7 @@ let proj = {
   "live": "https://materials-trader.herokuapp.com/"
   }
 
-let imgDir = './CNC-Portfolio/images/';
+let imgDir = './images/';
   
 function Mt() {
   return (
@@ -25,15 +26,31 @@ function Mt() {
       <hr/>
       <img src={imgDir+proj.img} alt={proj.alt}/>
       <hr/>
-      <h3>Github repo:</h3>
-      {/* <Link to="https://github.com/djdyer/materials-trader">Repo</Link> */}
-      <hr/>
-      <h3>Live deployment:</h3>
-      <hr/>
-      <h3>Walkthrough video:</h3>
-      <hr/>
+      <a href="https://github.com/djdyer/materials-trader"><h4>Repo</h4></a>
+      <br/>
+      <a href="https://materials-trader.herokuapp.com/"><h4>Live deployment:</h4></a>
+      <br/>
+      <a href="https://drive.google.com/file/d/1pjfldH-52UGu2uFExDSPg9XFFh4kNT8K/view?usp=sharing"><h4>Walkthrough video:</h4></a>
+      <br/>
     </>
   )
 }
 
 export default Mt
+
+// import React, { useEffect } from "react";
+
+// function Contact() {
+
+//   useEffect(() => {
+//     window.location.href = "https://google.com/contact";
+//   }, []);
+
+//   return (
+//     <div>
+//       <h2>Contact</h2>
+//     </div>
+//   );
+// }
+
+// export default Contact;

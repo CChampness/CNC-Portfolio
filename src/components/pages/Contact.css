@@ -1,17 +1,20 @@
 form {
-  
-  left: 50%;
-  top: 50%;
-  margin-left: -25%;
-  position: absolute;
-  margin-top: -25%;
-
-  /* box-sizing: border-box; */
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 50%
 }
 
 input {
-  height: 2rem;
+  font-size: 2em;
+  height: 3rem;
   border: 2px solid;
   border-radius: 4px;
+  width: 100%
+}
 
+textarea {
+  font-size: 2em;
 }
