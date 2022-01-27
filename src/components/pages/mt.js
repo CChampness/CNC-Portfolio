@@ -1,4 +1,4 @@
-import './Details.css';
+import './Contact.css';
 import React from 'react';
 
 let proj = {
@@ -26,11 +26,11 @@ function Mt() {
       <hr/>
       <img src={imgDir+proj.img} alt={proj.alt}/>
       <hr/>
-      <a href="https://github.com/djdyer/materials-trader"><h4>Repo</h4></a>
+      <a href="https://github.com/djdyer/materials-trader"><h4>Github Repository</h4></a>
       <br/>
-      <a href="https://materials-trader.herokuapp.com/"><h4>Live deployment:</h4></a>
+      <a href={proj.live}><h4>Live deployment</h4></a>
       <br/>
-      <a href="https://drive.google.com/file/d/1pjfldH-52UGu2uFExDSPg9XFFh4kNT8K/view?usp=sharing"><h4>Walkthrough video:</h4></a>
+      <a href={proj.video}><h4>Walkthrough video</h4></a>
       <br/>
     </>
   )
