@@ -2,11 +2,11 @@ function About() {
   return (
     <div className="About div">
       <hr />
-        <section id="about-section">
-          <h3>About Me</h3>
-            <article id="about">
-              <img className="textwrap-img" src="./images/profile.jpg" alt="Profile photo" />
-                <div>
+      <section id="about-section">
+        <h3>About Me</h3>
+        <article id="about">
+          <img className="textwrap-img" src="./images/profile.jpg" alt="Profile photo" />
+          <div>
         Chris is a software engineer with 25 years of experience in both very large
         and very small organizations.  He has been cited as an
         outstanding team collaborator, as well as a persistent individual contributor.
@@ -23,11 +23,9 @@ function About() {
         Currently he is taking the Georgia Tech Full-Stack Web Coding Bootcamp.  When he
         completes the program, he intends to offer web development services to businesses,
         small organizations, and individuals.
-      </div>
-    </article>
-  </section>
-  <hr />
-
+          </div>
+        </article>
+      </section>
     </div>
   );
 }

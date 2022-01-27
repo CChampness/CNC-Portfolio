@@ -19,7 +19,6 @@ let imgDir = './images/';
 function Tpg() {
   return (
     <>
-      <hr/>
       <h3 className="card-title">{proj.title}</h3>
       <hr/>
       <p>{proj.text}</p>

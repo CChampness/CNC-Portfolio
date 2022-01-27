@@ -19,7 +19,6 @@ let imgDir = './images/';
 function Mt() {
   return (
     <>
-      <hr/>
       <h3 className="card-title">{proj.title}</h3>
       <hr/>
       <p>{proj.text}</p>
@@ -40,8 +39,6 @@ export default Mt
 
 // import React, { useEffect } from "react";
 
-// function Contact() {
-
 //   useEffect(() => {
 //     window.location.href = "https://google.com/contact";
 //   }, []);
@@ -51,6 +48,5 @@ export default Mt
 //       <h2>Contact</h2>
 //     </div>
 //   );
-// }
 
 // export default Contact;

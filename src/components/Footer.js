@@ -2,6 +2,8 @@
 
 function Footer() {
   return (
+    <>
+    <hr/>
     <footer id = "contact">
       <h1>How to contact me:</h1>
       <div>
@@ -12,6 +14,7 @@ function Footer() {
         <a href="https://stackoverflow.com/users/16466286/chris"><h4>StackOverflow</h4></a>
       </div>
     </footer>
+    </>
   );
 }
 

@@ -50,6 +50,7 @@ function Main({ currentPage, setCurrentPage}) {
 
   return (
     <main>
+      <hr/>
       {renderPage()}
     </main>
   );
