@@ -1,7 +1,6 @@
 function About() {
   return (
     <div className="About div">
-      <hr />
       <section id="about-section">
         <h3>About Me</h3>
         <article id="about">

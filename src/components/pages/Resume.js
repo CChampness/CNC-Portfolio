@@ -1,7 +1,6 @@
 function Resume() {
   return (
     <div className="Resume div">
-      <hr />
       <h3>Resume</h3>
       <article>
         <h4>Summary</h4>
