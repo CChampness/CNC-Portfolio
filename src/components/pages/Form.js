@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './form.css'
 // helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';
 
@@ -71,6 +72,7 @@ function Form() {
           placeholder="Please type your message here..."
         />
         <button
+          className="formButton"
           type="button"
           onClick={handleFormSubmit}>
           Submit

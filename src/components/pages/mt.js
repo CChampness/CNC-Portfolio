@@ -1,4 +1,3 @@
-import './Contact.css';
 import React from 'react';
 
 let proj = {
@@ -36,17 +35,3 @@ function Mt() {
 }
 
 export default Mt
-
-// import React, { useEffect } from "react";
-
-//   useEffect(() => {
-//     window.location.href = "https://google.com/contact";
-//   }, []);
-
-//   return (
-//     <div>
-//       <h2>Contact</h2>
-//     </div>
-//   );
-
-// export default Contact;
