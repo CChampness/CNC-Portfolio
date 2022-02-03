@@ -35,6 +35,6 @@ For each project that is featured in my portfolio, the following assets are incl
 ### Design
 * This app is designed "mobile-first".
 
-### Screenshot of the Portfolio (https://cchampness.github.io/CNC-Portfolio/)
+### Live deployment of the Portfolio (https://cchampness.github.io/CNC-Portfolio/)
 
 ### Github repository link (https://github.com/CChampness/CNC-Portfolio)
