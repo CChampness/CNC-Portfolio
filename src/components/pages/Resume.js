@@ -1,8 +1,11 @@
 function Resume() {
   return (
-    <div className="Resume div">
+    <div>
       <hr />
       <h3>Resume</h3>
+      {/* <a href="./Assets/David_Dyer_Resume_ATS_2022.png" download="Resume_DavidDyer_2022">
+      <img class="icon" src="Images/resume_button3.png" target="_blank" alt="Download Resume"></a> */}
+      <a href="./resume.html" className="resume" download="resume.html">Download some html</a>
       <article>
         <h4>Summary</h4>
         <p>
@@ -19,9 +22,8 @@ function Resume() {
         Science Innovations, which is now part of Northrup-Grumman, he wrote a client-side application for
         viewing high-dimensional data.  When he's off the clock, he can be found hiking, kayaking,
         gardening, woodworking, singing, or praying, but not all at once!
-        Currently he is taking the Georgia Tech Full-Stack Web Coding Bootcamp.  When he
-        completes the program, he intends to offer web development services to businesses,
-        small organizations, and individuals.
+        Recently he has completed the Georgia Tech Full-Stack Web Coding Bootcamp.  He is 
+        offering web development services to businesses, small organizations, and individuals.
         </p>
       </article>
       <article>

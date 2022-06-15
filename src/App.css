@@ -12,10 +12,6 @@
   box-sizing: border-box;
 }
 
-/* * {
-  box-sizing: border-box;
-} */
-
 body {
   color: aliceblue;
   background-color: var(--dark-blue-green);
@@ -99,7 +95,6 @@ nav a:hover {
 #buttondiv {
   display: flex;
   /* position: absolute; */
-
 }
 
 #backbutton {
@@ -272,6 +267,10 @@ hr {
   margin: 0px 50px;
   border: 5px solid rgb(81, 0, 128);
   border-radius: 5px;
+}
+
+.resume {
+  color: aliceblue;
 }
 
 footer {
