@@ -5,11 +5,7 @@ This is a React application that is deployed to GitHub Pages.
 
 ## Motivation
 As a client looking to engage expertise with building and maintaining single-page applications,
-<<<<<<< HEAD
 you will want to view my work samples so that you can assess whether I might be a good candidate to meet your requirement.
-=======
-you will want to view my work samples in so that you can assess whether I might be a good candidate to meet your requirement.
->>>>>>> 081bb07b0c51106ea369c667e8779e4333b848ab
 
 ## Features of this portfolio application
 * This is a single-page application portfolio.
