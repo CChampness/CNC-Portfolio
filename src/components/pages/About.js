@@ -22,7 +22,7 @@ function About() {
         viewing high-dimensional data.  When he's off the clock, he can be found hiking, kayaking,
         gardening, woodworking or singing in the church choir.
         Recently he is graduated from the Georgia Tech Full-Stack Web Coding Bootcamp.  He
-        id now offering web development services to businesses, small organizations, and individuals.
+        is now offering web development services to businesses, small organizations, and individuals.
             </div>
           </article>
         </section>

@@ -28,7 +28,6 @@ function Resume() {
       </article>
       <article>
         <h4>Skills</h4>
-        {/* <p> */}
           <ul>
             <li>JavaScript</li>
             <li>CSS</li>
@@ -37,11 +36,9 @@ function Resume() {
             <li>Embedded Software</li>
             <li>C++</li>
           </ul>
-        {/* </p> */}
       </article>
       <article>
         <h4>Experience</h4>
-          {/* <p> */}
           <dl>
             <dt>Home Depot</dt>
             <dd>- Sales Associate (2020-2021)</dd>
@@ -66,16 +63,13 @@ function Resume() {
             <dt>Georgia Tech Research Institute</dt>
             <dd>- Engineering Research Associate (1982-1985)</dd>
           </dl>
-          {/* </p> */}
         </article>
         <article>
           <h4>Education and Training</h4>
-        {/* <p> */}
           <ul>
             <li>Georgia Tech Full-Stack Web Development Coding Bootcamp (2021)</li>
             <li>Georgia Institute of Technology Bachelor ComputerScience (1985, Honors)</li>
           </ul>
-        {/* </p> */}
       </article>
     </div>
   );
