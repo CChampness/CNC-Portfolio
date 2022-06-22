@@ -1,5 +1,6 @@
 import projList from './displist';
-  const projName = "CNC-Portfolio";
+  //const projName = "CNC-Portfolio"; // For local only
+  const projName = ""; // For gh-pages deployment
   const imgDir = projName+"/images/";
 
   // The state gets changed in the Nav component

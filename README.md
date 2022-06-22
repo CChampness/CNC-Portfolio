@@ -5,7 +5,7 @@ This is a React application that is deployed to GitHub Pages.
 
 ## Motivation
 If you are a client looking to engage expertise with building and maintaining single-page applications,
-then of course you will want to view my work samples so that you can assess whether I might be a good
+then of course I hope you will enjoy viewing my work samples so that you can assess whether I might be a good
 candidate to meet your requirements.
 
 ## Features of this portfolio application
