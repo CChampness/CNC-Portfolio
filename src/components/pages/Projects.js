@@ -1,7 +1,6 @@
-// import React, { useState } from 'react';
 import projList from './displist';
-
-  let imgDir = './images/';
+  const projName = "CNC-Portfolio";
+  const imgDir = projName+"/images/";
 
   // The state gets changed in the Nav component
   function Projects ({ currentPage, handleChange }) {

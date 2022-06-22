@@ -4,8 +4,9 @@ Chris' Portfolio
 This is a React application that is deployed to GitHub Pages.
 
 ## Motivation
-As a client looking to engage expertise with building and maintaining single-page applications,
-you will want to view my work samples so that you can assess whether I might be a good candidate to meet your requirement.
+If you are a client looking to engage expertise with building and maintaining single-page applications,
+then of course you will want to view my work samples so that you can assess whether I might be a good
+candidate to meet your requirements.
 
 ## Features of this portfolio application
 * This is a single-page application portfolio.
@@ -16,10 +17,10 @@ you will want to view my work samples so that you can assess whether I might be 
 * When you click on a navigation title, the corresponding section is displayed without the page reloading.
 * The first time the portfolio is loaded,the About Me title and section are selected by default
 * When you select the About Me section, you will see a recent photo of me and a short bio about me.
-* In Portfolio section, you will see titled images of six of my applications with links to both the
+* In the Portfolio section, you will see titled images of six of my applications with links to both the
   deployed applications and the corresponding GitHub repositories.  Several also have walkthropugh videos.
-* In with the Contact section, you will see a contact form with fields for your name, email address, and a message.
-  Please go ahead an get in touch with me.
+* In the Contact section, you will see a contact form with fields for your preferred contact info.
+  Please go ahead and get in touch with me.
 * When you move your cursor out of one of the form fields without entering text, you will receive a notification that the field is required
 * When you enter text into the email address field, you will receive a notification if you hav entered an invalid email address
 * In the Resume section, you will see a link to a downloadable resume and a list of my developer’s proficiencies
