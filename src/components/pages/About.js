@@ -1,7 +1,6 @@
 function About() {
   return (
     <div>
-      <hr />
         <section id="about-section">
           <h3>About Me</h3>
             <article id="about">
@@ -25,7 +24,6 @@ function About() {
             </div>
           </article>
         </section>
-      <hr />
     </div>
   );
 }
