@@ -4,9 +4,9 @@
 // We assign them to their own variable names
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <nav> 
-      <a onClick={() => handlePageChange('About')}>About Me</a>
+    <nav>
       <a onClick={() => handlePageChange('Projects')}>Portfolio</a>
+      <a onClick={() => handlePageChange('About')}>About Me</a>
       <a onClick={() => handlePageChange('Contact')}>Contact Me</a>
       <a onClick={() => handlePageChange('Resume')}>Resume</a>
 

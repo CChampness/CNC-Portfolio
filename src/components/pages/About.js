@@ -5,8 +5,7 @@ function About() {
         <section id="about-section">
           <h3>About Me</h3>
             <article id="about">
-              <img className="textwrap-img" src={window.location.origin + '/profile.jpg'} />
-              {/* <img className="textwrap-img" src="/profile.jpg" alt="Profile photo" /> */}
+              <img className="textwrap-img" src={window.location.origin + '/CNC-Portfolio/profile.jpg' } alt="Profile photo"/>
               <div>
         Chris is a software engineer with 25 years of experience in both very large
         and very small organizations.  He has been cited as an

@@ -18,6 +18,7 @@
 }
 
 body {
+  max-width: 800px;
   color: aliceblue;
   background-color: var(--dark-blue-green);
 }
