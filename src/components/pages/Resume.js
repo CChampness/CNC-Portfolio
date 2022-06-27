@@ -1,11 +1,13 @@
 function Resume() {
+  const projName = "/CNC-Portfolio/";
+  const resumeName = window.location.origin + projName + "ChrisChampness_2022-5-3.pdf";
   return (
     <div>
-      <hr />
+      <section className="row justify-center">
       <h3>Resume</h3>
-      {/* <a href="./Assets/David_Dyer_Resume_ATS_2022.png" download="Resume_DavidDyer_2022">
-      <img class="icon" src="Images/resume_button3.png" target="_blank" alt="Download Resume"></a> */}
-      <a href="./resume.html" className="resume" download="resume.html">Download some html</a>
+      <p>
+      <a href={resumeName} className="resume" download="ChrisChampness_2022-5-3.pdf">Download Resume</a>
+      </p>
       <article>
         <h4>Summary</h4>
         <p>
@@ -39,30 +41,52 @@ function Resume() {
       </article>
       <article>
         <h4>Experience</h4>
-          <dl>
-            <dt>Home Depot</dt>
-            <dd>- Sales Associate (2020-2021)</dd>
-            <dt>Toccoa Hardware</dt>
-            <dd>- Small Engine Parts Manager (2018-2020)</dd>
-            <dt>Technical Equipment Distributors, Inc.</dt>
-            <dd>- Warehouse Manager (2015-2017)</dd>
-            <dt>Home Depot</dt>
-            <dd>- Sales Associate (2014-2015)</dd>
-            <dt>NCH Software</dt>
-            <dd>- Software Engineer (2009-2010)</dd>
-            <dt>InterDigital Communications LLC</dt>
-            <dd>- Staff Software Engineer (2005-2009)</dd>
-            <dt>Essex/CSI (now part of Northrup Grumman)</dt>
-            <dd>- Principal Software Engineer (2002-2005)</dd>
-            <dt>General Electric Transportation (now Wabtec)</dt>
-            <dd>- Lead Professional Band Software Engineer (2000-2002)</dd>
-            <dt>Computer Science Innovations</dt>
-            <dd>- Principal Software Engineer (1990-2000)</dd>
-            <dt>Harris Corporation</dt>
-            <dd>- Lead Software Engineer (1985-1990)</dd>
-            <dt>Georgia Tech Research Institute</dt>
-            <dd>- Engineering Research Associate (1982-1985)</dd>
-          </dl>
+          <table>
+            <tr>
+              <td>Home Depot</td>
+              <td>Sales Associate (2020-2021)</td>
+            </tr>
+            <tr>
+              <td>Toccoa Hardware</td>
+              <td>Small Engine Parts Manager (2018-2020)</td>
+            </tr>
+            <tr>
+              <td>Technical Equipment Distributors, Inc.</td>
+              <td>Warehouse Manager (2015-2017)</td>
+            </tr>
+            <tr>
+              <td>Home Depot</td>
+              <td>Sales Associate (2014-2015)</td>
+            </tr>
+            <tr>
+              <td>NCH Software</td>
+              <td>Software Engineer (2009-2010)</td>
+            </tr>
+            <tr>
+              <td>InterDigital Communications LLC</td>
+              <td>Staff Software Engineer (2005-2009)</td>
+            </tr>
+            <tr>
+              <td>Essex/CSI (now part of Northrup Grumman)</td>
+              <td>Principal Software Engineer (2002-2005)</td>
+            </tr>
+            <tr>
+              <td>General Electric Transportation (now Wabtec)</td>
+              <td>Lead Professional Band Software Engineer (2000-2002)</td>
+            </tr>
+            <tr>
+              <td>Computer Science Innovations</td>
+              <td>Principal Software Engineer (1990-2000)</td>
+            </tr>
+            <tr>
+              <td>Harris Corporation</td>
+              <td>Lead Software Engineer (1985-1990)</td>
+            </tr>
+            <tr>
+              <td>Georgia Tech Research Institute</td>
+              <td>Engineering Research Associate (1982-1985)</td>
+            </tr>
+          </table>
         </article>
         <article>
           <h4>Education and Training</h4>
@@ -71,6 +95,7 @@ function Resume() {
             <li>Georgia Institute of Technology Bachelor ComputerScience (1985, Honors)</li>
           </ul>
       </article>
+      </section>
     </div>
   );
 }

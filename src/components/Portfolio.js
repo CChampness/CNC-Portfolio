@@ -4,7 +4,7 @@ import Main from './Main';
 import Footer from './Footer';
 
 function PortfolioApp() {
-  const [currentPage, setCurrentPage] = useState('Projects');
+  const [currentPage, setCurrentPage] = useState('About');
 
   return (
     <React.Fragment>

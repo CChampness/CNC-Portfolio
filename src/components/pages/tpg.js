@@ -23,11 +23,9 @@ function Tpg() {
       <hr/>
       <p>{proj.text}</p>
       <hr/>
-      <img src={imgDir+proj.img} alt={proj.alt}/>
-      <hr/>
-      <a href="https://github.com/CChampness/TeamPageGen"><h4>Github Repository</h4></a>
+      <a href={proj.video} target="_blank"><h4>Walkthrough video</h4></a>
       <br/>
-      <a href={proj.video}><h4>Walkthrough video</h4></a>
+      <a href="https://github.com/CChampness/TeamPageGen" target="_blank"><h4>Github Repository</h4></a>
       <br/>
     </>
   )

@@ -6,10 +6,11 @@ function Nav({ currentPage, handlePageChange }) {
   return (
     <nav>
       <a onClick={() => handlePageChange('Projects')}>Portfolio</a>
-      <a onClick={() => handlePageChange('About')}>About Me</a>
-      <a onClick={() => handlePageChange('Contact')}>Contact Me</a>
+      <a onClick={() => handlePageChange('About')}>About</a>
+      <a onClick={() => handlePageChange('Contact')}>Contact</a>
       <a onClick={() => handlePageChange('Resume')}>Resume</a>
 
+      <a href='' className="noshow" onClick={() => handlePageChange('Mm')}></a>
       <a href='' className="noshow" onClick={() => handlePageChange('Mt')}></a>
       <a href='' className="noshow" onClick={() => handlePageChange('Dp')}></a>
       <a href='' className="noshow" onClick={() => handlePageChange('Cq')}></a>

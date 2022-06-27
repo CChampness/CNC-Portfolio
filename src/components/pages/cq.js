@@ -24,11 +24,9 @@ function Cq() {
       <hr/>
       <p>{proj.text}</p>
       <hr/>
-      <img src={imgDir+proj.img} alt={proj.alt}/>
-      <hr/>
-      <a href="https://github.com/CChampness/JavascriptCodingTest"><h4>Github Repository</h4></a>
+      <a href={proj.live} target="_blank"><h4>Live deployment</h4></a>
       <br/>
-      <a href={proj.live}><h4>Live deployment</h4></a>
+      <a href="https://github.com/CChampness/JavascriptCodingTest" target="_blank"><h4>Github Repository</h4></a>
       <br/>
     </>
   )

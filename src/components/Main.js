@@ -3,6 +3,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Mm from './pages/Mm';
 import Mt from './pages/Mt';
 import Cq from './pages/Cq';
 import Fsb from './pages/Fsb';
@@ -29,6 +30,8 @@ function Main({ currentPage, setCurrentPage}) {
         );
       case 'Contact':
         return <Contact />;
+      case 'Mm':
+        return <Mm />;
       case 'Mt':
         return <Mt />;
       case 'Cq':
