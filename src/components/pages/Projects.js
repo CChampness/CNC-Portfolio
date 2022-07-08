@@ -13,9 +13,9 @@ import projList from './displist';
           <figure className="proj-card">
               <a onClick={() => handleChange(proj.id)}>
                 <div className="tooltip">
-                <h4 className="card-title">{proj.title}</h4>
-                <span className="tooltiptext neon-text">Click for details!</span>
-                <img src={imgDir+proj.img} alt={proj.alt}/>
+                  <h4 className="card-title">{proj.title}</h4>
+                  <span className="tooltiptext neon-text">Click for details!</span>
+                  <img src={imgDir+proj.img} alt={proj.alt}/>
                 </div>
               </a>
           </figure>

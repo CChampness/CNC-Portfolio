@@ -5,7 +5,7 @@
 function Nav({ currentPage, handlePageChange }) {
   return (
     <nav>
-      <a onClick={() => handlePageChange('Projects')}>Portfolio</a>
+      <a onClick={() => handlePageChange('Projects')}>Projects</a>
       <a onClick={() => handlePageChange('About')}>About</a>
       <a onClick={() => handlePageChange('Contact')}>Contact</a>
       <a onClick={() => handlePageChange('Resume')}>Resume</a>
