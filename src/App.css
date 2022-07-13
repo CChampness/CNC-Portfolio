@@ -19,7 +19,8 @@
 }
 
 body {
-  max-width: 800px;
+  /* max-width: 800px; */
+  /* justify-content: center; */
   /* color: aliceblue; */
   color: var(--light-text);
   background-color: var(--dark-blue-green);
@@ -40,6 +41,10 @@ header {
   text-align: center;
   /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), var(--dark-blue-green)); */
   background-image: linear-gradient(to bottom, rgba(27,64,78, 0.5), rgba(27,64,78, 1.0));
+}
+
+figure a {
+  cursor: pointer;
 }
 
 .details-page-header {
@@ -66,6 +71,7 @@ nav a {
   color: var(--light-text);
   padding: 0px 10px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 nav a:hover {
@@ -336,6 +342,34 @@ hr {
   color: aliceblue;
 }
 
+.icon-grid {
+  --grid-width: 7rem;
+  display: grid;
+  gap: .75rem;
+  grid-template-columns: repeat(auto-fill,minmax(var(--grid-width),1fr));
+  margin: 0 0 1.5rem;
+}
+
+.icon-grid-item {
+  background-color: #fff;
+  border-radius: 10px;
+  /* display: inline-grid; */
+  justify-items:center;
+  box-shadow: inset 0px 0px 8px var(--dark-blue-green), 0 0 15px var(--dark-blue-green);
+  /* flex-direction: column;
+  overflow: hidden; */
+  list-style: none;
+}
+
+li img {
+  z-index: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+ 
+}
+
 footer {
   padding-top: 10px;
   display: flex;
@@ -425,6 +459,38 @@ footer h4:hover {
   opacity: 1;
 }
 
+.icontip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; */
+}
+
+.icontip .icontiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 50%;
+  left: 50%;
+  margin-left: -60px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.icontip:hover .icontiptext {
+  visibility: visible;
+  opacity: 1;
+  z-index: 2;
+}
+
+
 /* Tooltip must have its position relative to its container*/
 span[data-descr] {
   position: relative;
@@ -446,6 +512,10 @@ span[data-descr]:focus::after {
   padding: 12px;
   color: white;
   z-index: 1;
+}
+
+a.menu_links {
+  cursor: pointer;
 }
 
 /* Tooltip must have its position relative to its container
@@ -577,3 +647,10 @@ span[data-descr]:focus::after {
     float: none;
   }
 }
+
+
+/* /////////////////////////////////
+
+ol, ul {
+  list-style: none;
+} */

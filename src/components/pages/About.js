@@ -11,8 +11,8 @@ function About() {
         Coding Bootcamp and
         is now offering web development services to businesses, small organizations, and individuals.
         <br/><br/>
-        He has been cited as an
-outstanding team collaborator, as well as a persistent and creative individual contributor.
+        He has been cited as an outstanding team collaborator, as well as a persistent and creative
+        individual contributor.
         At Harris Corporation, Chris
         developed a version of the UNIX System V Operating System which conformed to the DoD
         specification at the B2 Trusted Computing Level.  He produced key software modules
@@ -21,11 +21,6 @@ outstanding team collaborator, as well as a persistent and creative individual c
         for extreme-duty mining trucks while at GE Transportation Systems.  At Computer
         Science Innovations, now part of Northrup-Grumman, he wrote a client-side application for
         viewing high-dimensional data.
-        <br/><br/>
-        
-        When he's off the clock, he can be found hiking, kayaking,
-        gardening, woodworking or singing in the church choir.
-      
             </div>
           </article>
         </section>
