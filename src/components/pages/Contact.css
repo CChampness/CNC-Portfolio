@@ -8,18 +8,26 @@ form {
 }
 
 input {
-  font-size: 2em;
-  height: 3rem;
+  font-size: 1.5em;
+  height: 2rem;
   border: 2px solid;
   border-radius: 4px;
   width: 100%
 }
 
 textarea {
-  font-size: 2em;
+  display: block;
+  width: 100%;
+  font-size: 1.5em;
 }
 
 h4 {
   color: aliceblue;
+}
+
+button {
+  font-size: 2rem;
+  padding: 5px;
+  margin: 5px;
 }
 

@@ -1,7 +1,8 @@
 // import React, { useState } from 'react';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Contact from './pages/Contact';
+// import Contact from './pages/Contact';
+import ContactForm from './pages/ContactForm';
 import Resume from './pages/Resume';
 import Mm from './pages/Mm';
 import Mt from './pages/Mt';
@@ -28,8 +29,8 @@ function Main({ currentPage, setCurrentPage}) {
             <Projects  currentPage={currentPage} handleChange={handleChange}/>
           </section>
         );
-      case 'Contact':
-        return <Contact />;
+      case 'ContactForm':
+        return <ContactForm />;
       case 'Mm':
         return <Mm />;
       case 'Mt':
