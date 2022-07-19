@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f18dce9.css",
-    "main.js": "/static/js/main.a0db8486.js",
-    "index.html": "/index.html",
-    "main.7f18dce9.css.map": "/static/css/main.7f18dce9.css.map",
-    "main.a0db8486.js.map": "/static/js/main.a0db8486.js.map"
+    "main.css": "/CNC-Portfolio/static/css/main.7f18dce9.css",
+    "main.js": "/CNC-Portfolio/static/js/main.a0db8486.js",
+    "index.html": "/CNC-Portfolio/index.html",
+    "main.7f18dce9.css.map": "/CNC-Portfolio/static/css/main.7f18dce9.css.map",
+    "main.a0db8486.js.map": "/CNC-Portfolio/static/js/main.a0db8486.js.map"
   },
   "entrypoints": [
     "static/css/main.7f18dce9.css",
