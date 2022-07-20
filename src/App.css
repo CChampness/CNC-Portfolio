@@ -194,8 +194,10 @@ img {
 .top-card {
   width: 100%;
   flex: 1 0 100%;
-  /* padding: 8px; */
-  padding: 10vw; 
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
   /* Resize as a column */
   transition: flex-basis 500ms linear;
 }
@@ -204,7 +206,6 @@ img {
 .card-column {
   flex: 1 0 100%;
   padding: 8px;
-  /* padding: 10vw; */
   /*Resize columns smoothly */
   transition: flex-basis 500ms linear;
 }
@@ -375,8 +376,11 @@ footer {
   display: flex;
   justify-content:space-around;
   text-align: center;
-  background-image: linear-gradient(to bottom, rgba(27,64,78, 1.0), rgba(27,64,78, 0.1));
+  background-color: #3757a9;
+  background-image: linear-gradient(to bottom, rgba(27,64,78, 1.0), rgba(27,64,78, 0.5));
+  /* background-image: linear-gradient(to bottom, rgba(27,64,78, 0.5), rgba(27,64,78, 1.0)); */
 }
+
 footer h1 {
   margin: -5px 0 5px;
 }

@@ -6,9 +6,9 @@ function Resume() {
     <div>
       <section className="row justify-center">
       <h3>Resume</h3>
-      <p>
+      </section>
+      <section className="row justify-center">
       <a href={resumeName} className="resume" download="ChrisChampness_2022-5-3.pdf">Download Resume</a>
-      </p>
       <article>
         <h4>Summary</h4>
         <p>
@@ -235,8 +235,8 @@ function Resume() {
         <article>
           <h4>Education and Training</h4>
           <ul>
-            <li>Georgia Tech Full-Stack Web Development Coding Bootcamp (2021)</li>
-            <li>Georgia Institute of Technology Bachelor ComputerScience (1985, Honors)</li>
+            <li>Georgia Tech Full-Stack Web Development Coding Bootcamp</li>
+            <li>Georgia Institute of Technology Bachelor ComputerScience</li>
           </ul>
       </article>
       </section>

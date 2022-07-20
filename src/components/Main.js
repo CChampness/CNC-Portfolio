@@ -25,8 +25,8 @@ function Main({ currentPage, setCurrentPage}) {
       case 'Projects':
         return (
           <section className="row justify-center">
-            <h3>Portfolio</h3>
-            <Projects  currentPage={currentPage} handleChange={handleChange}/>
+            <h3>Projects</h3>
+            <Projects currentPage={currentPage} handleChange={handleChange}/>
           </section>
         );
       case 'ContactForm':
