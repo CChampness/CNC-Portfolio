@@ -1,9 +1,8 @@
 function Resume() {
   const projName = "/CNC-Portfolio/";
-  const iconLoc = "/CNC-Portfolio/icons/";
-  // const iconLoc = "/icons/";
-  // const iconLoc = "";
-  const resumeName = window.location.origin + projName + "ChrisChampness_2022-5-3.pdf";
+  const windowOrigin = window.location.origin;
+  const resumeName = windowOrigin + projName + "ChrisChampness_2022-5-3.pdf";
+  const iconLoc = windowOrigin + projName + "icons/";
   return (
     <div>
       <section className="row justify-center">
