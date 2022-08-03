@@ -2,7 +2,7 @@
   "name": "cnc-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepageX": "https://CChampness.github.io/CNC-Portfolio",
+  "homepage": "https://CChampness.github.io/CNC-Portfolio",
   "homepageX-on-github": "https://CChampness.github.io/CNC-Portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
