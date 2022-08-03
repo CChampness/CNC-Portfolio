@@ -92,7 +92,7 @@ function Resume() {
           </li>
           <li className="icon-grid-item icontip">
             <span className="icontiptext">JavaScript</span>
-            <img src={iconLoc+"javascriptF7Df1E.svg"} loading="lazy" alt="JavaScript icon"></img>
+            <img src={iconLoc+"javascriptF7DF1E.svg"} loading="lazy" alt="JavaScript icon"></img>
           </li>
           <li className="icon-grid-item icontip">
             <span className="icontiptext">Jest</span>
