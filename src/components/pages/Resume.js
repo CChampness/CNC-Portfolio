@@ -1,6 +1,8 @@
 function Resume() {
   const projName = "/CNC-Portfolio/";
-  const iconLoc = "CNC-Portfolio/icons/";
+  const iconLoc = "/CNC-Portfolio/icons/";
+  // const iconLoc = "/icons/";
+  // const iconLoc = "";
   const resumeName = window.location.origin + projName + "ChrisChampness_2022-5-3.pdf";
   return (
     <div>
@@ -65,6 +67,10 @@ function Resume() {
             <span className="icontiptext">CSS3</span>
             <img src={iconLoc+"css31572B6.svg"} loading="lazy" alt="CSS3 icon"></img>
           </li>
+          {/* <li className="icon-grid-item icontip">
+            <span className="icontiptext">Elementor</span>
+            <img src={iconLoc+"elementor.svg"} loading="lazy" alt="Elementor icon"></img>
+          </li> */}
           <li className="icon-grid-item icontip">
             <span className="icontiptext">Github</span>
             <img src={iconLoc+"github181717.svg"} loading="lazy" alt="Github icon"></img>
@@ -185,7 +191,7 @@ function Resume() {
       </article>
       <article>
         <h4>Experience</h4>
-          <table>
+          <table><tbody>
             <tr>
               <td>Home Depot</td>
               <td>Sales Associate (2020-2021)</td>
@@ -230,7 +236,7 @@ function Resume() {
               <td>Georgia Tech Research Institute</td>
               <td>Engineering Research Associate (1982-1985)</td>
             </tr>
-          </table>
+          </tbody></table>
         </article>
         <article>
           <h4>Education and Training</h4>
