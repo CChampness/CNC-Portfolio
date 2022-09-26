@@ -58,6 +58,12 @@ function Resume() {
             <span className="icontiptext">Bootstrap</span>
             <img src={iconLoc+"bootstrap7952B3.svg"} loading="lazy" alt="Bootstrap icon"></img>
           </li>
+
+          <li className="icon-grid-item icontip">
+            <span className="icontiptext">cPanel</span>
+            <img src={"https://cdn.cdnlogo.com/logos/c/7/cpanel.svg"} loading="lazy" alt="Bootstrap icon"></img>
+          </li>
+
           <li className="icon-grid-item icontip">
             <span className="icontiptext">C Plus Plus</span>
             <img src={iconLoc+"cplusplus0059CC.svg"} loading="lazy" alt="C Plus Plus icon"></img>
